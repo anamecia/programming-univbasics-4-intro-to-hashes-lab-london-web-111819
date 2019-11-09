@@ -1,7 +1,6 @@
 def new_hash
   # return an empty hash
   hash = Hash.new
-  hash
 end
 
 def my_hash
@@ -16,7 +15,7 @@ end
 
 def id_generator
   # return a hash with a key :id assigned to positive integer
-  new_hash
+  hash = {}
   hash[:id] = 7
   hash
 end
